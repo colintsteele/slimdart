@@ -15,6 +15,6 @@ void main() {
 
 	test("/exercise returns a string", () async {
 		var response = await client.request("/exercises").get();
-		expect(response, hasStatus(>200));
+		expect(response, hasStatus(200));
 	});
 }

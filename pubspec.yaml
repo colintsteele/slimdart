@@ -1,0 +1,11 @@
+name: slimgym
+description: a workout thing
+version: 0.0.1
+author: Colin Steele
+
+environment:
+  sdk: '>=1.20.0 <2.0.0'
+
+dependencies:
+  aqueduct: any
+ 
